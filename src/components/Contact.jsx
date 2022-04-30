@@ -161,6 +161,7 @@ const Contact = ({darkMode}) => {
 							<br></br>
 							<Form onSubmit={(e) => onSubmit(e)}>
 								<Form.Group>
+							
 									<Form.Control
 										onChange={(e) => onInputChange(e)}
 										value={templateParams.from_name}
@@ -169,8 +170,10 @@ const Contact = ({darkMode}) => {
 										type="name"
 										placeholder="Enter your name"
 									/>
+									
 								</Form.Group>
 								<Form.Group>
+									
 									<Form.Control
 										onChange={(e) => onInputChange(e)}
 										value={templateParams.message}
@@ -181,10 +184,8 @@ const Contact = ({darkMode}) => {
 										placeholder="Enter your message"
 									/>
 								</Form.Group>
-								<Button
-									variant={darkMode ? 'outline-light' : 'outline-dark'}
-									type="submit"
-								>
+								<Button className='b1'>
+									
 									Submit
 								</Button>
 							</Form>

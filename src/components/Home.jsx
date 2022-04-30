@@ -20,7 +20,7 @@ const Home = ({darkMode}) => {
 								<span
 									class="txt-rotate"
 									data-period="2000"
-									data-rotate='[ " Aspiring Full-Stack Web Developer", " love designing Web Apps." ]'
+									data-rotate='[ " Aspiring Full-Stack Web Developer", "Love Coding" ]'
 								></span>
 							</h2>
 						</Col>

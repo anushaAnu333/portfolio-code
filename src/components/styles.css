@@ -49,7 +49,7 @@
 }
 
 .navbar .mr-auto .link{
-    margin-left: 20px;
+    margin-left: 12px;
     font-size: large;
     color: var(--text-color);
     box-shadow: 0 0 50px;
@@ -210,14 +210,20 @@ strong, .with{
 
 .sbtn{
     margin-top: 20px;
+    background-color: white;
+    color: black;
 }
 
 .ph{
-    background-color: transparent;
+   
     border-width: 1px;
-    border-color: var(--text-color);
-    color: var(--hello);
+    border-color: white;
+    width:400px;
+    margin-left: 200px;
+    
+  
 }
+
 
 .contact-img{
     height: 150px;
@@ -255,4 +261,10 @@ strong, .with{
     border: 1px solid white;
     align-content: center;
     
+}
+.b1{
+    background-color: white;
+    color: black;
+    margin-left: 200px;
+  
 }
